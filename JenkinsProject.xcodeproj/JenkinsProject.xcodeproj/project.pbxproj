@@ -15,8 +15,6 @@
 		19339A681E938CB9000F692B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19339A661E938CB9000F692B /* LaunchScreen.storyboard */; };
 		19339A731E938CBA000F692B /* JenkinsProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19339A721E938CBA000F692B /* JenkinsProjectTests.m */; };
 		19339A7E1E938CBA000F692B /* JenkinsProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19339A7D1E938CBA000F692B /* JenkinsProjectUITests.m */; };
-		19339A8E1E9392FA000F692B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19339A8C1E9392F9000F692B /* SecondViewController.m */; };
-		19339A8F1E9392FA000F692B /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19339A8D1E9392F9000F692B /* SecondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,9 +51,6 @@
 		19339A791E938CBA000F692B /* JenkinsProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkinsProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19339A7D1E938CBA000F692B /* JenkinsProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JenkinsProjectUITests.m; sourceTree = "<group>"; };
 		19339A7F1E938CBA000F692B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		19339A8B1E9392F9000F692B /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		19339A8C1E9392F9000F692B /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		19339A8D1E9392F9000F692B /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,9 +105,6 @@
 				19339A5C1E938CB8000F692B /* AppDelegate.m */,
 				19339A5E1E938CB8000F692B /* ViewController.h */,
 				19339A5F1E938CB8000F692B /* ViewController.m */,
-				19339A8B1E9392F9000F692B /* SecondViewController.h */,
-				19339A8C1E9392F9000F692B /* SecondViewController.m */,
-				19339A8D1E9392F9000F692B /* SecondViewController.xib */,
 				19339A611E938CB9000F692B /* Main.storyboard */,
 				19339A641E938CB9000F692B /* Assets.xcassets */,
 				19339A661E938CB9000F692B /* LaunchScreen.storyboard */,
@@ -216,7 +208,7 @@
 					19339A541E938CB8000F692B = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = YA5NH562EY;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					19339A6D1E938CBA000F692B = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -257,7 +249,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19339A8F1E9392FA000F692B /* SecondViewController.xib in Resources */,
 				19339A681E938CB9000F692B /* LaunchScreen.storyboard in Resources */,
 				19339A651E938CB9000F692B /* Assets.xcassets in Resources */,
 				19339A631E938CB9000F692B /* Main.storyboard in Resources */,
@@ -285,7 +276,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19339A8E1E9392FA000F692B /* SecondViewController.m in Sources */,
 				19339A601E938CB8000F692B /* ViewController.m in Sources */,
 				19339A5D1E938CB8000F692B /* AppDelegate.m in Sources */,
 				19339A5A1E938CB8000F692B /* main.m in Sources */,
@@ -437,14 +427,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = YA5NH562EY;
 				INFOPLIST_FILE = JenkinsProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.htc.JenkinsProject;
+				PRODUCT_BUNDLE_IDENTIFIER = htc.JenkinsProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "19d60bd2-5e09-48d8-a852-cd13d82f043e";
-				PROVISIONING_PROFILE_SPECIFIER = JenkinsAdHocDisribution;
 			};
 			name = Debug;
 		};
@@ -452,14 +439,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = YA5NH562EY;
 				INFOPLIST_FILE = JenkinsProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.htc.JenkinsProject;
+				PRODUCT_BUNDLE_IDENTIFIER = htc.JenkinsProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "19d60bd2-5e09-48d8-a852-cd13d82f043e";
-				PROVISIONING_PROFILE_SPECIFIER = JenkinsAdHocDisribution;
 			};
 			name = Release;
 		};
